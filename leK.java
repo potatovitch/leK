@@ -24,7 +24,7 @@ class leK{
 
     public static void main(String[] args){
         while (true){
-            return bullshit();
+            bullshit();
         }
     }
 
