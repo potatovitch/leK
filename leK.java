@@ -1,7 +1,7 @@
 import java.util.Random;
 
 class leK{
-    String[] final BULLSHIT_TAB = new String[]{"HI!",
+    static final String[] BULLSHIT_TAB = new String[]{"HI!",
                                          "ça c'est pas la question", 
                                          "ça se voit qu'il n'y a pas d'investissment de votre coté", 
                                          "Vous n'avez juste pas lu le document", 
@@ -14,16 +14,18 @@ class leK{
                                          "cette information, concrètement, je ne l'avais pas", 
                                          "C'est vous qui me faites des reproches... pas moi",
                                          "Je trouve ça bizare..."};
+                                       
 
+    static final int TAILLE = BULLSHIT_TAB.Length;
+    
     static String bullshit(){
         Random rnd = new Random();
-        rnd = rnd.nextInt();
-        return BULLSHIT_TAB[rnd];
+        return BULLSHIT_TAB[rnd.nextInt(TAILLE)];
     }
 
 
     public static void main(String[] args){
-        while (true){
+        for (int i = 0; i < 20; i++){
             bullshit();
         }
     }
