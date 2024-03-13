@@ -1,7 +1,7 @@
 import java.util.Random;
 
 class leK{
-    String[] BULLSHIT_TAB = new String[]{"HI!",
+    String[] final BULLSHIT_TAB = new String[]{"HI!",
                                          "ça c'est pas la question", 
                                          "ça se voit qu'il n'y a pas d'investissment de votre coté", 
                                          "Vous n'avez juste pas lu le document", 
