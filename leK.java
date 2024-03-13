@@ -16,17 +16,17 @@ class leK{
                                          "Je trouve ça bizare..."};
                                        
 
-    static final int TAILLE = BULLSHIT_TAB.Length;
+    static final int TAILLE = BULLSHIT_TAB.length;
     
     static String bullshit(){
         Random rnd = new Random();
-        return BULLSHIT_TAB[rnd.nextInt(TAILLE)];
+        return BULLSHIT_TAB[rnd.nextInt(TAILLE -1) ];
     }
 
 
     public static void main(String[] args){
         for (int i = 0; i < 20; i++){
-            bullshit();
+            System.out.println(bullshit());
         }
     }
 
