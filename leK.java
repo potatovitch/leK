@@ -13,7 +13,8 @@ class leK{
                                          "je ne suis pas votre parent", 
                                          "cette information, concrètement, je ne l'avais pas", 
                                          "C'est vous qui me faites des reproches... pas moi",
-                                         "Je trouve ça bizare..."};
+                                         "Je trouve ça bizare...",
+"Si tu dit pas non, c'est que tu consent"};
                                        
 
     static final int TAILLE = BULLSHIT_TAB.length;
