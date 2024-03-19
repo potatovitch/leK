@@ -14,7 +14,7 @@ class leK{
                                          "cette information, concrètement, je ne l'avais pas", 
                                          "C'est vous qui me faites des reproches... pas moi",
                                          "Je trouve ça bizare...",
-"Si tu dit pas non, c'est que tu consent"};
+                                         "Si tu dit pas non, c'est que tu consent"};
                                        
 
     static final int TAILLE = BULLSHIT_TAB.length();
@@ -26,7 +26,7 @@ class leK{
 
 
     public static void main(String[] args){
-        for (int i = 0; i < 20; i++){
+        for (int i = 0; i < 10; i++){
             System.out.println(bullshit());
         }
     }
