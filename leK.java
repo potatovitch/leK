@@ -17,7 +17,7 @@ class leK{
 "Si tu dit pas non, c'est que tu consent"};
                                        
 
-    static final int TAILLE = BULLSHIT_TAB.length;
+    static final int TAILLE = BULLSHIT_TAB.length();
     
     static String bullshit(){
         Random rnd = new Random();
