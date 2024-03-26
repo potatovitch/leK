@@ -14,7 +14,8 @@ class leK{
                                          "cette information, concrètement, je ne l'avais pas", 
                                          "C'est vous qui me faites des reproches... pas moi",
                                          "Je trouve ça bizare...",
-                                         "Si tu dit pas non, c'est que tu consent"};
+                                         "Si tu dit pas non, c'est que tu consent",
+                                         "On dirait que j'ai fumé la Frappe du Quartier"};
                                        
 
     static final int TAILLE = BULLSHIT_TAB.length();
